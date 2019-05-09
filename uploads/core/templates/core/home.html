@@ -1,0 +1,45 @@
+<!--{% extends 'base.html' %}-->
+
+<!--{% block content %}-->
+<html>
+  <head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container" style="margin:10px;">
+
+      <a class="btn btn-sm btn-primary" href="{% url 'model_form_upload' %}">Upload Photo</a>
+
+      <a class="btn btn-sm btn-primary" href="{% url 'simple_upload' %}">Upload Photos</a>
+
+<p>This photo should satisfact the next requirements:</p>
+    <ul>
+      <li>
+        Closed Eyes
+      </li>
+      <li>
+        Mouth Closed
+      </li>
+      <li>
+        Good Luminosity
+      </li>
+      <li>
+        Face discovered
+      </li>
+      <li>
+        Hight Pixelization
+      </li>
+    </ul>
+    </div>
+  </body>
+</html>
+<!--{% endblock %}-->
